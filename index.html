@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/font/fontello-embedded.css">
+    <link rel="stylesheet" href="/font/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+    <div>
+    <input type="checkbox" id="burger" class="burger-check" checked>
+    <label for="burger" class="burger-label">&#9776;</label>
+    <!-- Навигация -->
+        <nav class="navigation">
+            <ul class="nav-panel">
+                <li class="nav-src"><a href="#about" class="src src-about">About</a></li>
+                <li class="nav-src"><a href="#services" class="src src-services">Услуги</a></li>
+                <li class="nav-src"><a href="#portfolio" class="src src-portfolio">Портфолио</a></li>
+                <li class="nav-src"><a href="#contact" class="src src-contact">Контакты</a></li>
+            </ul>
+        </nav>
+        </div>
+    <!-- Head content -->  
+        <div class="head-content">
+        <div class="wrapper">
+            <h1 class="head-h1">Александр <span>Репин</span></h1>
+            <p class="head-p">
+                Верстка сайтов на <span>HTML 5</span> и <span>CSS</span>
+                <br>Адаптивная верстка
+                <br>Сайт под <span>"ключ"</span>
+                <br>Дизайн
+            </p>
+        </div>
+        </div>
+        <a href="#about" class="arrow-down"><i class="icon-down"></i></a>
+    </header>
+    
+    <!-- ABOUT -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                   <div class="diamond">
+
+                   </div>
+                </div>
+                <div class="col-md-6">
+                <div class="wrapper-text-about">
+                    <h2 class="about-me-h2">Пару слов обо <span>мне</span></h2>
+                    <p class="about-me-p">Я люблю свою работу.
+                    Поэтому я выполняю ее качествено,
+                    используя новые технологии в своей работе,
+                    например такие как:</p>
+                    <ul class="about-ul">
+                        <li class="about-li"><span>HTML 5</span> и <span>CSS 3</span></li>
+                        <li class="about-li"><span>JavaScript</span> и <span>JQuery</span></li>
+                        <li class="about-li"><span>Bootstrap</span></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SERVICES -->
+    <div class="services" id="services">
+        <h2 class="services-h2">Мои <span>услуги</span></h2>
+        <hr class="hr-line-serv">
+        <hr class="hr-line-serv-2">
+        <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptatibus delectus nesciunt ut pariatur doloremque, similique ab molestias cum esse.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item-icon-text">
+                        <i class="icon-html5 serv-icon"></i>
+                        <h2 class="services-h2-under-icon">Верстка сайта</h2>
+                        <p class="item-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum architecto, laudantium incidunt quod nihil quia!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-icon-text">
+                        <i class="icon-wordpress serv-icon"></i>
+                        <h2 class="services-h2-under-icon">Установка сайта на CMS</h2>
+                        <p class="item-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam labore consequuntur illo molestias dolore blanditiis!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-icon-text">
+                        <i class="icon-mobile serv-icon"></i>
+                        <h2 class="services-h2-under-icon">Адаптивная верстка</h2>
+                        <p class="item-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, unde, qui dolore magnam libero!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-icon-text">
+                        <i class="icon-desktop serv-icon"></i>
+                        <h2 class="services-h2-under-icon">Дизайн</h2>
+                        <p class="item-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quas cum, itaque minus, eveniet temporibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary modal-icon-price" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Прайс лист</button>
+        <!-- MODAL -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>            </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Прайс-лист</h4>
+                  </div>
+                  <div class="modal-body">
+                   
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default close" data-dismiss="modal">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+            </div> 
+    </div>
+    
+    <!-- PORTFOLIO -->
+    <div class="portfolio" id="portfolio">
+        <h2 class="portfolio-h2">Мои <span>работы</span></h2>
+        <p class="portfolio-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, explicabo, ipsum! Veritatis fuga, accusantium est reprehenderit suscipit natus! Optio at, sequi aperiam! Accusamus tempora nesciunt quibusdam quasi earum eos facere nobis odio maxime, nam accusantium perspiciatis enim esse eius. Officia.</p>
+    <div class="workstation">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-3">
+                 <div class="dws-wrapper">
+                     <div class="boxImg">
+                         <div class="dws-container">
+                             <div class="dws-text">
+                                 <h2 class="dws-h2">WORK</h2>
+                                 <p class="dws-p">Lorem ipsum dolor sit amet.
+                                 </p>
+                                 <a href="#0" class="show-window">Посмотреть</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="dws-wrapper">
+                     <div class="boxImg">
+                         <div class="dws-container">
+                             <div class="dws-text">
+                                 <h2 class="dws-h2">WORK</h2>
+                                 <p class="dws-p">Lorem ipsum dolor sit amet.
+                                 </p>
+                                 <a href="#0" class="show-window">Посмотреть</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="dws-wrapper">
+                     <div class="boxImg">
+                         <div class="dws-container">
+                             <div class="dws-text">
+                                 <h2 class="dws-h2">WORK</h2>
+                                 <p class="dws-p">Lorem ipsum dolor sit amet.
+                                 </p>
+                                 <a href="#0" class="show-window">Посмотреть</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="dws-wrapper">
+                     <div class="boxImg">
+                         <div class="dws-container">
+                             <div class="dws-text">
+                                 <h2 class="dws-h2">WORK</h2>
+                                 <p class="dws-p">Lorem ipsum dolor sit amet.
+                                 </p>
+                                 <a href="#0" class="show-window">Посмотреть</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <!-- CONTACT -->
+    <div class="contact" id="contact">
+        <h2 class="contact-h2">Контакты</h2>
+        <hr class="hr-line-serv">
+        <hr class="hr-line-serv-2">
+        <p class="contact-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corporis vel minus corrupti incidunt iusto exercitationem distinctio sequi itaque labore.</p>
+    <div class="form">
+        <form action="">
+            <input type="text" placeholder="Имя" required class="input-name" name="name">
+            <input type="email" placeholder="email" required class="input-email" name="email">
+            <br>
+            <textarea name="message" id="area" class="textarea-form" placeholder="Ваше сообщение"></textarea>
+            <br>
+            <button type="submit" class="btn-submit">Отправить</button>
+        </form>
+    </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="social-h3">АЛЕКСАНДР <span>РЕПИН</span></h3>
+                    <p class="copy">
+                        ALL RIGHTS RESERVED.<br> COPYRIGHT © 2017
+                    </p>
+                </div>
+                <div class="col-md-4">
+        <div class="social">
+            <h3 class="social-h3">Социальные сети</h3>
+            <div class="social-btn">
+                <a href="https://vk.me/legate_marius" class="social-btn-a">
+                <i class="icon-vk icon-social"></i>
+                </a>
+                <a href="https://t.me/legate" class="social-btn-a">
+                <i class="icon-telegram icon-social"></i>
+                </a>
+                <a href="skype:+79965896906?chat" class="social-btn-a">
+                <i class="icon-skype icon-social"></i>
+                </a>
+            </div>
+        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="disign-social">
+                       <h3 class="social-h3">Услуги дизайнера</h3>
+                        <div class="social-btn">
+                            <a href="https://vk.me/alexleandoer" class="social-btn-a">
+                            <i class="icon-vk icon-social"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@media (min-width: 0) and (max-width: 768px) {
+    html {
+        font-size: 5px;
+    }
+    
+    .arrow-down {
+        display: none;
+    }
+
+
+    .portfolio-item {
+        margin: auto;
+    }
+    
+    .nav-panel {
+        display: block;
+        position: fixed;
+        transform: scale(1);
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 102;
+    }
+    
+    .burger-label {
+        display: block;
+    }
+    
+    .navigation {
+        transition: 0.5s;
+    }
+    
+    #burger:checked ~ .navigation {
+        transform: scale(0);
+    } 
+    
+}
+
+@media (min-width: 0) and (max-width: 400px) {
+    .input-name,
+    .input-email {
+        width: 7em;
+    }
+    
+    .textarea-form {
+        width: 43rem;
+    }
+    
+    .diamond {
+        width: 40rem;
+    }
+}
